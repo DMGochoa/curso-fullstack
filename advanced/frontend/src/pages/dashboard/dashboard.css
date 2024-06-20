@@ -1,0 +1,17 @@
+.page-container {
+  display: flex;
+}
+
+.dashboard-content {
+  margin-left: 60px; /* Ajustar según el ancho de la navbar */
+  padding: 20px;
+  width: 100%;
+}
+
+.navbar.expanded ~ .dashboard-content {
+  margin-left: 200px; /* Ajustar según el ancho expandido de la navbar */
+}
+
+.chart-container {
+  margin-top: 20px;
+}

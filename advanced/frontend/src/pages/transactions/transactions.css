@@ -1,0 +1,39 @@
+.page-container {
+  display: flex;
+}
+
+.transactions-content {
+  margin-left: 60px; /* Ajustar según el ancho de la navbar */
+  padding: 20px;
+  width: 100%;
+}
+
+.transactions-content table {
+  margin-bottom: 20px;
+}
+
+.navbar.expanded ~ .transactions-content {
+  margin-left: 200px; /* Ajustar según el ancho expandido de la navbar */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
