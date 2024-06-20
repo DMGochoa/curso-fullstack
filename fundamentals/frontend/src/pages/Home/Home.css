@@ -1,0 +1,38 @@
+.general-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.filters-container h3 {
+    margin: 0;
+}
+
+.info-container {
+    display: flex;
+    gap: 64px;
+    margin-top: 32px;
+}
+
+.info-table {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-charts {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-chart {
+    display: flex;
+    gap: 64px;
+    margin-top: 32px;
+
+}

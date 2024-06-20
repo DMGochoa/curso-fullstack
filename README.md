@@ -130,8 +130,6 @@ Claro, aquí tienes las entidades transformadas en tablas utilizando Markdown:
 
 **Vistas:**
 
-
-
 - **Login:** Permite a los usuarios autenticarse en la aplicación utilizando su nombre y contraseña.
 - **Vista General (General View):** Ofrece una vista consolidada de las transacciones, filtradas por cuenta. Incluye un tablero (dashboard) con gráficos que muestran los ingresos y egresos, facilitando el análisis financiero.
 
